@@ -45,7 +45,6 @@ class Payment {
 		}
 
 		if($sum < $price) return false; 
-		print_r($this->tickets); 
 		return $tickets; 
 
 	}
